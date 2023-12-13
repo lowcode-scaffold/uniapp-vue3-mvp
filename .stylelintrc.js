@@ -19,5 +19,4 @@ module.exports = {
     "font-family-no-missing-generic-family-keyword": null,
     "declaration-block-no-shorthand-property-overrides": null,
   },
-  ignoreFiles: ["src/uni.scss"],
 };
