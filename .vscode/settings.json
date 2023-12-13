@@ -4,13 +4,11 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true
   },
-  "stylelint.validate": [
-    "css",
-    "less",
-    "scss",
-    "vue"
-  ],
+  "stylelint.validate": ["css", "less", "scss", "vue"],
   "[vue]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
