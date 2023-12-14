@@ -1,22 +1,16 @@
 {
-  "yapi": {
-    "domain": "https://yapi.onewo.com",
-    "projects": [
-      {
-        "token": "d7ea85707783f5ea8d01190a38043c8a3be1cb3c292070b57aab0442fa288339",
-        "name": "居有屋",
-        "domain": "https://yapi.onewo.com"
-      }
-    ]
-  },
-  "mock": {
-    "mockNumber": "Random.natural(1000,1000)",
-    "mockBoolean": "false",
-    "mockString": "Random.cword(5, 7)",
-    "mockKeyWordEqual": [],
-    "mockKeyWordLike": []
-  },
-  "commonlyUsedBlock": [
-    "vue-mvp 模块"
-  ]
+	"yapi": {
+		"domain": "https://yapi.onewo.com",
+		"projects": []
+	},
+	"mock": {
+		"mockNumber": "Random.natural(1000,1000)",
+		"mockBoolean": "false",
+		"mockString": "Random.cword(5, 7)",
+		"mockKeyWordEqual": [],
+		"mockKeyWordLike": []
+	},
+	"commonlyUsedBlock": [
+		"vue-mvp 模块"
+	]
 }
