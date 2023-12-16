@@ -4,11 +4,13 @@
     <view class="text-area">
       <text class="title">{{ model.title.value }}</text>
     </view>
+    <Title @change="presenter.handleChange" name="title"></Title>
   </view>
 </template>
 
 <script setup lang="ts">
 import { usePresenter } from "./presenter";
+import Title from "./components/Title/index.vue";
 
 const presenter = usePresenter();
 const { model } = presenter;
